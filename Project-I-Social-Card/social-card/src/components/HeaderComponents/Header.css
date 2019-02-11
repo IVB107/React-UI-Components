@@ -1,1 +1,56 @@
 /* All styles for your header Components live here */
+
+/* App */
+.app {
+    width: 570px;
+}
+
+
+/* HeaderContainer */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border: 1px solid red;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* border: 1px solid blue; */
+    margin: 10px;
+}
+
+
+/* ImageThumbnail */
+.thumbnail img {
+    width: 50px;
+    margin: 8px 0;
+    /* width: 100%; */
+}
+
+
+/* HeaderTitle */
+.title-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* border: 1px solid gray; */
+}
+.title-container .name {
+    margin: 0 6px 0 0;
+    font-size: 14px;
+}
+.title-container p {
+    margin: 0 6px 0 0;
+    font-size: 12px;
+}
+
+/* HeaderContent */
+.header-content p{
+    font-size: 14px;
+    line-height: 1.2;
+    margin: 8px 0;
+}
