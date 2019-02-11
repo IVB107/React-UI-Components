@@ -6,12 +6,26 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-end;
-    margin-left: 50px;
-    border: 1px solid orange;
+    margin-left: 10%;
+    width: 90%;
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 5px;
+    
 }
 
 /* CardBanner */
-
+.card-banner img {
+    width: 100%;
+    background-position: center center;
+}
 
 /* CardContent */
-
+.card-content {
+    padding: 0 20px;
+}
+.card-content p {
+    font-size: 14px;
+}
+.card-url {
+    color: rgb(160, 160, 160);
+}
