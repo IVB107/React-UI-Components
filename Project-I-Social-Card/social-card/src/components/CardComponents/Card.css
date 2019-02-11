@@ -1,1 +1,17 @@
 /* All styles for your Card Components live here */
+
+/* CardContainer */
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-left: 50px;
+    border: 1px solid orange;
+}
+
+/* CardBanner */
+
+
+/* CardContent */
+

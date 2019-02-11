@@ -1,11 +1,5 @@
 /* All styles for your header Components live here */
 
-/* App */
-.app {
-    width: 570px;
-}
-
-
 /* HeaderContainer */
 .container {
     display: flex;
