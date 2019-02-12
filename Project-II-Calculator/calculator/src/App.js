@@ -4,26 +4,30 @@ import ActionButton from './components/ButtonComponents/ActionButton';
 import NumberButton from './components/ButtonComponents/NumberButton'
 import './App.css';
 
+const initialState = {
+  number: 0,
+  display: '0'
+}
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       number: 0,
-      display: 0
+      display: '0'
     }
   }
 
   handleNumberClick = props => {
     const newState = {...this.state, number: props};
-    if (newState.display === 0) {
-      this.setState({newState, display: newState.number});
+    if (newState.display === '0') {
+      this.setState({newState, display: newState.number.toString()});
     } else {
       this.setState({newState, display: `${this.state.display}${newState.number}`});
     }
   }
 
   handleClearDisplay = props => {
-    console.log('something');
+    this.setState(initialState);
   }
 
   render() {
@@ -31,7 +35,7 @@ class App extends React.Component {
       <div className="calculator">
         <CalculatorDisplay display={this.state.display}/>
         <div className="calculator-row">
-          <ActionButton className="flex3 clear" text="clear"></ActionButton>
+          <ActionButton className="flex3 clear" text="clear" onClick={(props) => this.handleClearDisplay(props)}></ActionButton>
           <ActionButton className="flex1">÷</ActionButton>
         </div>
         <div className="calculator-row">
