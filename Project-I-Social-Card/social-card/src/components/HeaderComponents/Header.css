@@ -5,7 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .header-text {
@@ -17,14 +17,12 @@
     margin: 10px;
 }
 
-
 /* ImageThumbnail */
 .thumbnail img {
     width: 50px;
     margin: 8px 0;
     /* width: 100%; */
 }
-
 
 /* HeaderTitle */
 .title-container {
