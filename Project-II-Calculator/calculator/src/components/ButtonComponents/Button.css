@@ -1,0 +1,40 @@
+.action-button {
+    height: 93px;
+    background-color: white;
+    color: black;
+    font-size: 2.6rem;
+    align-self: center;
+}
+.clear {
+    font-weight: 100;
+}
+.flex3 {
+    display: flex;
+    /* flex-grow: 3; */
+    width: 75%;
+    justify-content: center;
+    align-items: center;
+}
+.flex1 {
+    display: flex;
+    /* flex-grow: 1; */
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    background-color: #A0001E;
+    color: white;
+    
+}
+
+/* Number Buttons */
+.number-button {
+    display: flex;
+    height: 93px;
+    background-color: white;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.6rem;
+    /* border: 2px solid grey; */
+}
