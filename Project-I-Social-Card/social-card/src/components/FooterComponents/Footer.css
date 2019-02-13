@@ -1,0 +1,18 @@
+.footer-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 90%;
+    margin: 20px 0 20px 10%;
+}
+.icon-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 40px 0 0;
+}
+.icon-container p{
+    width: 15px;
+    margin: 0 6px;
+    font-size: 12px;
+}
