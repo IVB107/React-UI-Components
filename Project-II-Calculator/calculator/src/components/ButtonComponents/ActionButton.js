@@ -2,9 +2,8 @@ import React from 'react';
 import './Button.css';
 
 const ActionButton = props => {
-    const text = props.children;
     const classes = props.className;
-    return <div className={`action-button ${classes}`}>{ text }</div> 
+    return <div onClick={() => props.onClick(props.text)} className={`action-button ${classes}`}>{ props.text }</div> 
 }
 
 export default ActionButton;
